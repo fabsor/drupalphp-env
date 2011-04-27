@@ -1,5 +1,5 @@
 class compile {
-  $packages = [ "build-essentials"]
+  $packages = [ "build-essential"]
 
   package { $packages:
     ensure => installed,
