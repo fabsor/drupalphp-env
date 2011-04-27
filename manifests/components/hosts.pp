@@ -3,6 +3,6 @@ class hosts {
       owner  => root,
       group  => root,
       mode   => 0444,
-      source => "/srv/varnish/config/hosts",
+      source => "/srv/config/hosts",
     }
 }
