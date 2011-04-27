@@ -1,6 +1,6 @@
 class apache {
   $packages = [ "apache2" ]
-  $vhosts = [ "varnish.test.org" ]
+  $vhosts = [ "drupal7.phpdev.org" ]
   $mods = [ "rewrite" ]
   $files = ["apache2.conf", "ports.conf", "httpd.conf", "conf.d/charset", 
   "conf.d/default", "conf.d/log", "conf.d/security", 
