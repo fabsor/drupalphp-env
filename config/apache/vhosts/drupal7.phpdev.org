@@ -1,10 +1,10 @@
-<VirtualHost *:8080>
+<VirtualHost *:80>
 
-  ServerName varnish.test.org:8080
+  ServerName drupal7.phpdev.org:80
 
-  DocumentRoot /srv/varnish/drupal6
+  DocumentRoot /srv/drupal7
 
-  <Directory /srv/varnish/drupal6>
+  <Directory /srv/drupal7>
 
     # Allow from all as default.
     Order deny,allow
@@ -79,7 +79,7 @@
   </Directory>
   
   # Directory for private files. Use together with downld module.
-  <Directory /srv/varnish/drupal6/sites/default/files/private>
+  <Directory /srv/drupal7/sites/default/files/private>
     Deny from all
   </Directory>      
 

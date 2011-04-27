@@ -1,4 +1,4 @@
-127.0.0.1       localhost varnish.test.org
+127.0.0.1       localhost drupal7.phpdev.org
 127.0.1.1       vagrantup.com   vagrantup
 
 # The following lines are desirable for IPv6 capable hosts
