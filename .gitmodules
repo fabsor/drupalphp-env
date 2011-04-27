@@ -1,0 +1,3 @@
+[submodule "drupal_php_ext"]
+	path = drupal_php_ext
+	url = http://git.drupal.org/project/drupal_php_ext.git
