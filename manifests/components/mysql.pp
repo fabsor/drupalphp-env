@@ -1,6 +1,6 @@
 class mysql {
   $packages = [ "mysql-client", "mysql-common", "mysql-server" ]
-  $databases = [ "drupal6" ]
+  $databases = [ "drupal7" ]
   package { $packages:
     ensure => installed,
   }
