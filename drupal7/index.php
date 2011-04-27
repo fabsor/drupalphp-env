@@ -18,5 +18,7 @@
 define('DRUPAL_ROOT', getcwd());
 
 require_once DRUPAL_ROOT . '/includes/bootstrap.inc';
+// Override drupal_static() and check_plain().
+drupal_extension_enable();
 drupal_bootstrap(DRUPAL_BOOTSTRAP_FULL);
 menu_execute_active_handler();
