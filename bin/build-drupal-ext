@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Go to extension directory and run phpize
+cd /srv/drupal_php_ext
+phpize
+
+# Run make
+make
+
+# Run make install
+make install
