@@ -34,7 +34,7 @@ class apache {
       owner  => root,
       group  => root,
       mode   => 0444,
-      source => "/srv/varnish/config/apache/$name",
+      source => "/srv/config/apache/$name",
     }
   }
   
@@ -50,7 +50,7 @@ class apache {
       owner  => root,
       group  => root,
       mode   => 0444,
-      source => "/srv/varnish/config/apache/vhosts/$name",
+      source => "/srv/config/apache/vhosts/$name",
       /* notify => Service["apache2"], */
       before => File["/etc/apache2/sites-enabled/$name"],
     }
